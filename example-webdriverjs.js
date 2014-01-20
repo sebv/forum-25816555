@@ -1,6 +1,5 @@
-//
-// mocha -R spec -t 60000 example-webdriverjs.js
-//
+// 1/ start sauce connect
+// 2/ run: mocha -R spec -t 60000 example-webdriverjs.js
 
 var assert = require('chai').assert,
     webdriverjs = require('webdriverjs');
